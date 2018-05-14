@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    //git使用方法 分支 svn并用吗
+    //git使用方法 分支 X84版本控制，多人同时修改一个文件方便吗？
     
     MLifeTabBarController *vc = [[MLifeTabBarController alloc] init];
     self.window.rootViewController = vc;

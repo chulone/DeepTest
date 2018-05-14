@@ -9,12 +9,7 @@
 #import "MWebViewController.h"
 #import "MWebView.h"
 
-#define XNAME(n) x##n // 宏调用 int XNAME(4) = 1；
-
 #define WKWeb   1
-
-#define PLAYSOUNDEFFECT(...) \
-[[GameManager sharedGameManager] playSoundEffect:@#__VA_ARGS__]
 
 @interface MWebViewController () <WKNavigationDelegate,WKUIDelegate>
 
@@ -28,12 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-//#if XNAME(self.isWK)
-//    NSLog(@"WK");
-//#else
-//    NSLog(@"UI");
-//#endif
     
     [self initRequest];
     [self.webView loadRequest:self.request];
