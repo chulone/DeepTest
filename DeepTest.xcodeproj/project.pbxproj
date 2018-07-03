@@ -162,6 +162,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61ADEFDE20EB503E005EE805 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		C30E41EE20A97870004C3DA6 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		C30E41EF20A97870004C3DA6 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		C30E41F020A97870004C3DA6 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -784,6 +785,7 @@
 		C30E42A920A97870004C3DA6 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				61ADEFDE20EB503E005EE805 /* AFCompatibilityMacros.h */,
 				C30E42AA20A97870004C3DA6 /* AFHTTPSessionManager.h */,
 				C30E42AB20A97870004C3DA6 /* AFHTTPSessionManager.m */,
 				C30E42AC20A97870004C3DA6 /* AFNetworking.h */,
